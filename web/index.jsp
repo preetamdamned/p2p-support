@@ -9,9 +9,22 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>p2p support</title>
+        <jsp:include page="components/head_weblibs.jsp"/>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <jsp:include page="components/navbar.jsp"/>
+        <jsp:include page="components/carousel.jsp"/>
+        <div class="row-fluid">
+            <div class="span4">
+                <img class="img-circle" src="img/slide-01.jpg">
+            </div>
+            <div class="span4">
+                <img class="img-circle" src="img/slide-02.jpg">
+            </div>
+            <div class="span4">
+                <img class="img-circle" src="img/slide-03.jpg">
+            </div>
+        </div>
     </body>
 </html>

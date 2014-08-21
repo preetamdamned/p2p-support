@@ -1,7 +1,10 @@
-<%-- incusion of the front end web libraries in the page header--%>
-<%@ page pageEncoding="UTF-8" %>
+
+<!--the header component for the weblibs-->
 <link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
 <link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
 <link rel="stylesheet" href="css/custom.css"/>
 <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+<!--end of the weblibs-->
