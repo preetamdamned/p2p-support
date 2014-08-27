@@ -38,7 +38,7 @@
                         <!--</li>-->
                     </ul>
                     <form class="navbar-search pull-right">
-                        <input type="text" class="search-query" placeholder="search"/>
+                        <input type="text" class="search-query" style="height: 30px;" placeholder="search"/>
                     </form>
                 </div><!--/.nav-collapse -->
             </div><!-- /.navbar-inner -->

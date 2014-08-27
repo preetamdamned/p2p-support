@@ -1,4 +1,4 @@
-<!--<div class="container">-->
+<div class="container-fluid">
 <div id="myCarousel" class="carousel slide text-center">
     <ol class="carousel-indicators pull-right">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -40,4 +40,5 @@
     <!-- Carousel nav -->
     <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
     <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
 </div>

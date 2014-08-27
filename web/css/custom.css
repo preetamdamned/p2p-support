@@ -8,25 +8,89 @@ and open the template in the editor.
     Author     : preet_000
 */
 
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Dancing Script';
+    /*font-size: 120%;*/
+        
+}
 .item{
     /*width: 1336px;*/
     height: auto;
 }
 .navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-  margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    margin-top: 20px;
 }
 h1{
     color:#cc0033;
 }
 body{
     padding: 0;
+    background: url( ../img/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    
+
 }
 /*.carousel ol{
     top:75%;
     right: 49.5%;
 }*/
+
+#content-wrapper{
+    margin-top: 90px;
+}
+@media screen and (max-width: 767px) {
+    .navbar-wrapper{
+        margin-top: 0px;
+        position: initial;
+        
+    }
+    .navbar-inner{
+        border-radius: 0px;
+    }
+
+}
+
+#sidebarRight,#sidebarRight{
+    text-align: justify;
+}
+#sidebarRight{
+    background: rgba(243, 244, 229, 0.6);
+    color:  #4a4d00;
+    padding: 20px;
+    
+}
+#sidebarLeft{
+    background: rgba(204, 255, 204, 0.47);
+    color:  #006633;
+    padding: 20px;
+}    
+#main{
+    background: rgba(230, 230, 230, 0.22);
+    color:  #4d4d4d;
+    padding: 20px;
+    
+}
+#footer{
+    background: rgba(255, 255, 255, 0.23);
+    color: #e5e5e5;
+    text-shadow: 1px 1px 1px #000000;
+    
+}
+#footer-inner{
+    padding: 20px;
+}
+#queryModal{
+    border: 12px solid rgba(255, 255, 255, 0.317647);
+}
